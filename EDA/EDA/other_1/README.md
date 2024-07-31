@@ -4,7 +4,7 @@
 
 - **debit card, deposit 에 관한 신용 거래 정보 file**
 - **null X**
-- **case_id 모두 unique → 각 고객에 대한 ID(다른 파일에서는?)**
+- **case_id 모두 unique → 각 고객에 대한 ID**
 
 ## **Column Description**
 
@@ -18,13 +18,11 @@
 
 ## **Feature Engineering**
 
-<aside>
-💡 **`incoming_amount` : debit card로 들어오거나, 혹은 account에서 바로 입금되는 금액의 총합
-`outgoing_amount` : debit card로 나가거나, 혹은 account에서 바로 출금되는 금액의 총합**
+- `incoming_amount` : debit card로 들어오거나, 혹은 account에서 바로 입금되는 금액의 총합
+- `outgoing_amount` : debit card로 나가거나, 혹은 account에서 바로 출금되는 금액의 총합
 
-</aside>
+<br>
 
-- **incoming, outgoing 개념이 분리되어 있으나, 하나로 합쳐 계산해보기**
 - **모든 컬럼의 null 값이 존재하지 않음 → 0과 positive 비율이 대략적으로 절반이 대부분(amtdepositincoming_4809444A 제외)**
 
 | Columns                     | (null, 0, positive) | zero_rate | positive_rate |
@@ -48,7 +46,12 @@
   중간값: 385.4
   =======================================
   ```
-  ![Untitled](%E2%9C%85other_1%20bc91e53cb6274fe7aa3df07661f3a239/Untitled.png)
+  <div align=center>
+  
+    ![image](https://github.com/user-attachments/assets/0d87d2a7-2497-4dbc-a476-d333b2a9d488)
+  
+  </div>
+  
 - **outgoing_amount**
   ```
   ========== [outgoing_amount] ==========
@@ -60,6 +63,10 @@
   중간값: 656.8
   =======================================
   ```
-  ![Untitled](%E2%9C%85other_1%20bc91e53cb6274fe7aa3df07661f3a239/Untitled%201.png)
+  <div align=center>
+    
+    ![image](https://github.com/user-attachments/assets/89ad38a3-0447-4569-9c8e-deb0468a931d)
+
+  </div>
 
 [실행코드](https://colab.research.google.com/drive/1fuTBgwvs2pbcpzeghNVnPVWrFcBahTb3#scrollTo=Kyyt0tnvbxWG)
