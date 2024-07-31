@@ -103,9 +103,18 @@
 
       2. fillna →median (mean에 비해 변동성이 거의 없음)
       - 1.0 파일만
-      ![Untitled](%E2%9C%85credit_bureau_a_1%20541a5b6d585c4894aa5efd1d9f060de3/Untitled.png)
+      <div align=center>
+        
+        ![image](https://github.com/user-attachments/assets/ded81b10-c2ea-478d-b8a2-61de0dc71bbc)
+
+      </div>
+      
       - 전체
-      ![Untitled](%E2%9C%85credit_bureau_a_1%20541a5b6d585c4894aa5efd1d9f060de3/Untitled%201.png)
+      <div align=center>
+        
+        ![image](https://github.com/user-attachments/assets/c976e72f-f984-4261-a8e9-edd689b2e972)
+
+      </div>
 - **연체, 미지급, 잔여 구분**
 
   - outstanding(미납) vs. overdue(연체)
@@ -115,13 +124,5 @@
     - 지불 기한을 넘긴 후부터 overdue interest(연체이자) 역시 발생하게 됨
   - residual
 
-  > 궁금증
-  >
-  > - outstanding의 범위:
-  >   - 1. the total amount that is currently due and has not been paid. (past due + current due)
-  >   - 2. Just past due
-
-- **active vs. closed contract**
-  - 실험 예정(오늘 안)
 
 [실행 코드](https://colab.research.google.com/drive/1HXSFdodrV3v1_tGe6-z0L5AVZ8ZvmDBE#scrollTo=sWOz6s3-iS9s&uniqifier=2)
