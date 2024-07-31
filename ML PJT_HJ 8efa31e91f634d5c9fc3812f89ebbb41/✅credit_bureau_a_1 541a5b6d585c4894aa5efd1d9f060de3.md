@@ -3,17 +3,9 @@
 ## File Description
 
 - 신용 금융 기관에 기록된 데이터
-- null 값이 80% +
-    - isnull vs. notnull:   target 영향력 확인
-        
-        ⇒ eda로 결정
-        
+- null 값이 80%
     
 - masking category > null이 없음!
-    - ~~null 을 encoding한 값이 들어가있는건 아닌지 확인 필요~~
-    - (강사님 피드백)
-    - 그냥 masking에 의미를 부여하지 않는게 중요!
-    - 필요하면, 의미가 있다면 찾아보는 게 중요!!! ⇒ 모델링 자체에서 tree feature importance가 높은 컬럼, 분포가 특이하게 나오는 컬럼
 - 대부분 left skewed 형태
     - log 변환 : np.log1p()
     - 음수 data 존재 컬럼 `dpdmax_757P`: (+)min 처리로 -inf 제거
