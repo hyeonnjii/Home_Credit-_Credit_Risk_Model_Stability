@@ -1,4 +1,4 @@
-# ✅tax_registry_a_1
+# ✅tax_registry_a_b_c_1
 
 ## File Description
 
@@ -54,12 +54,15 @@
 
 - 합치기 전후, 분포 차이 별로 X
 
-![Untitled](%E2%9C%85tax_registry_a_1%20043150e49523408a868460e7545e6ea2/Untitled.png)
+![image](https://github.com/user-attachments/assets/6144bdb5-b70c-4efb-933b-be3bc155d984)
 
-![Untitled](%E2%9C%85tax_registry_a_1%20043150e49523408a868460e7545e6ea2/Untitled%201.png)
+
+![image](https://github.com/user-attachments/assets/6cdc6cfe-9ff2-492f-9ea5-9406ab88bb02)
+
 
 - 날짜 별(month 단위) tax_deduction 금액
 
-![Untitled](%E2%9C%85tax_registry_a_1%20043150e49523408a868460e7545e6ea2/Untitled%202.png)
+![image](https://github.com/user-attachments/assets/478e3f9f-0df5-4265-b62f-1a8b363a19ae)
+
 
 [실행 코드](https://colab.research.google.com/drive/1iQfVuJ53l42I5Zd478LJhd9yJyu9UUcn#scrollTo=Xx2IZOi3bf57)
