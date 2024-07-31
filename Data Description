@@ -1,0 +1,86 @@
+# 데이터셋 설명
+
+
+- 해당 데이터셋은 다양한 데이터 소스와 데이터 집계 수준을 활용하여 많은 수의 테이블로 구성
+- 모든 파일은 .csv와 .parquet 형식으로 제공됩니다.
+
+### Base Tables
+관측치와 case_id에 대한 기본 정보가 저장되는데, case_id는 각 관측치를 고유하게 식별하며, 다른 테이블과 연결하는 데 사용됩니다.
+
+- 학습 파일: `train_base.csv`
+- 테스트 파일: `test_base.csv` (약 90%의 `train_base.csv` case_id 값 포함)
+
+### static_0
+- 속성: depth 0, 내부 데이터 소스
+- 학습 파일: `train_static_0_0.csv`, `train_static_0_1.csv`
+- 테스트 파일: `test_static_0_0.csv`, `test_static_0_1.csv`, `test_static_0_2.csv`
+
+### static_cb_0
+- 속성: depth 0, 외부 데이터 소스
+- 학습 파일: `train_static_cb_0.csv`
+- 테스트 파일: `test_static_cb_0.csv`
+
+### applprev_1
+- 속성: depth 1, 내부 데이터 소스
+- 학습 파일: `train_applprev_1_0.csv`, `train_applprev_1_1.csv`
+- 테스트 파일: `test_applprev_1_0.csv`, `test_applprev_1_1.csv`, `test_applprev_1_2.csv`
+
+### other_1
+- 속성: depth 1, 내부 데이터 소스
+- 학습 파일: `train_other_1.csv`
+- 테스트 파일: `test_other_1.csv`
+
+### tax_registry_a_1
+- 속성: depth 1, 외부 데이터 소스, 세금 등록 제공자 A
+- 학습 파일: `train_tax_registry_a_1.csv`
+- 테스트 파일: `test_tax_registry_a_1.csv`
+
+### tax_registry_b_1
+- 속성: depth 1, 외부 데이터 소스, 세금 등록 제공자 B
+- 학습 파일: `train_tax_registry_b_1.csv`
+- 테스트 파일: `test_tax_registry_b_1.csv`
+
+### tax_registry_c_1
+- 속성: depth 1, 외부 데이터 소스, 세금 등록 제공자 C
+- 학습 파일: `train_tax_registry_c_1.csv`
+- 테스트 파일: `test_tax_registry_c_1.csv`
+
+### credit_bureau_a_1
+- 속성: depth 1, 외부 데이터 소스, 신용 조회 기관 A
+- 학습 파일: `train_credit_bureau_a_1_0.csv`, `train_credit_bureau_a_1_1.csv`, `train_credit_bureau_a_1_2.csv`, `train_credit_bureau_a_1_3.csv`
+- 테스트 파일: `test_credit_bureau_a_1_0.csv`, `test_credit_bureau_a_1_1.csv`, `test_credit_bureau_a_1_2.csv`, `test_credit_bureau_a_1_3.csv`, `test_credit_bureau_a_1_4.csv`
+
+### credit_bureau_b_1
+- 속성: depth 1, 외부 데이터 소스, 신용 조회 기관 B
+- 학습 파일: `train_credit_bureau_b_1.csv`
+- 테스트 파일: `test_credit_bureau_b_1.csv`
+
+### deposit_1
+- 속성: depth 1, 내부 데이터 소스
+- 학습 파일: `train_deposit_1.csv`
+- 테스트 파일: `test_deposit_1.csv`
+
+### person_1
+- 속성: depth 1, 내부 데이터 소스
+- 학습 파일: `train_person_1.csv`
+- 테스트 파일: `test_person_1.csv`
+
+### debitcard_1
+- 속성: depth 1, 내부 데이터 소스
+- 학습 파일: `train_debitcard_1.csv`
+- 테스트 파일: `test_debitcard_1.csv`
+
+### applprev_2
+- 속성: depth 2, 내부 데이터 소스
+- 학습 파일: `train_applprev_2.csv`
+- 테스트 파일: `test_applprev_2.csv`
+
+### person_2
+- 속성: depth 2, 내부 데이터 소스
+- 학습 파일: `train_person_2.csv`
+- 테스트 파일: `test_person_2.csv`
+
+### credit_bureau_a_2
+- 속성: depth 2, 외부 데이터 소스, 신용 조회 기관 A
+- 학습 파일: `train_credit_bureau_a_2_0.csv`, `train_credit_bureau_a_2_1.csv`, `train_credit_bureau_a_2_2.csv`, `train_credit_bureau_a_2_3.csv`, `train_credit_bureau_a_2_4.csv`, `train_credit_bureau_a_2_5.csv`, `train_credit_bureau_a_2_6.csv`, `train_credit_bureau_a_2_7.csv`, `train_credit_bureau_a_2_8.csv`, `train_credit_bureau_a_2_9.csv`, `train_credit_bureau_a_2_10.csv`
+- 테스트 파일: `test_credit_bureau_a_2_0.csv`, `test_credit_bureau_a_2_1.csv`, `test_credit_bureau_a_2_2.csv`, `test_credit_bureau_a_2_3.csv`, `test_credit_bureau_a_2_4.csv`, `test_credit_bureau_a_2_5.csv`, `test_credit_bureau_a_2_6.csv`, `test_credit_bureau_a_2_7.csv`, `test_credit_bureau_a_2_8. 
