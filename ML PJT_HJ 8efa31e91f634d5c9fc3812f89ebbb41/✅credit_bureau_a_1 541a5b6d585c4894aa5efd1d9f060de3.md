@@ -1,4 +1,4 @@
-# ✅credit_bureau_a_1
+# credit_bureau_a_1
 
 ## File Description
 
@@ -142,4 +142,4 @@
 - **active vs. closed contract**
     - 실험 예정(오늘 안)
 
-[Google Colaboratory](https://colab.research.google.com/drive/1HXSFdodrV3v1_tGe6-z0L5AVZ8ZvmDBE#scrollTo=sWOz6s3-iS9s&uniqifier=2)
+[실행 코드](https://colab.research.google.com/drive/1HXSFdodrV3v1_tGe6-z0L5AVZ8ZvmDBE#scrollTo=sWOz6s3-iS9s&uniqifier=2)
